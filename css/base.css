@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+body #container header h2 {
+  background-color: #facb33;
+  margin: 0;
+}
+body #container #nav {
+  background-color: #ef383c;
+  overflow: auto;
+}
+body #container #nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.2em 0.3em;
+}
+body #container #nav h2 {
+  padding: 0.2em 1em;
+}
+body #container #nav a, body #container #nav h2 {
+  float: left;
+  display: inline;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin: 0;
+}
+body #container #nav #home {
+  background-color: #87c443;
+}
+body #container #nav #press {
+  background-color: #f36563;
+}
+body #container #nav #blog {
+  background-color: #f36563;
+}
+body #container #artists {
+  background-color: #facb33;
+}
+body #container #artists h2 {
+  margin: 0;
+}
+body #container #artists ul {
+  list-style: none;
+  background-color: #823f48;
+  margin: 0;
+  padding: 0;
+}
+body #container #artists ul li {
+  margin: 0;
+  padding: 0;
+}
+body #container #artists ul li a {
+  color: white;
+  text-decoration: none;
+}

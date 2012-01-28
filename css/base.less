@@ -1,0 +1,88 @@
+// LESS
+@yellow : #FACB33;
+@red : #EF383C;
+@pink: #F36563;
+@green : #87C443;
+@brown : #823F48;
+
+clear-fix
+{
+
+}
+
+body
+{
+
+  margin:0;
+  padding:0;
+  
+  background-color: white;
+  
+  #container
+  {
+  
+    header
+    {
+      
+      h2
+      {
+        background-color: @yellow;
+        margin:0;
+      }
+    }
+    
+    #nav
+    {
+      background-color:@red;
+      overflow:auto;
+      
+      a {
+      	color:inherit;
+      	text-decoration:none;
+        padding:0.2em 0.3em;
+      }
+      h2 { padding:0.2em 1em; }
+      a,h2
+      {
+        float:left;
+        display:inline;
+        font-size:1.2em;
+        line-height:1.4em;
+        margin:0;
+        
+      }
+      
+      #home { background-color:@green; }
+      #press { background-color:@pink; }
+      #blog { background-color:@pink;}
+    }
+    
+    #artists
+    {
+      background-color:@yellow;
+      h2
+      {
+        margin:0;
+      }
+      ul
+      {
+        list-style:none;
+        background-color:@brown;
+        margin:0;
+        padding:0;
+        
+        li
+        {
+          margin:0;
+          padding:0;
+          
+          a 
+          {
+            color:white;
+            text-decoration:none;
+          }
+        }
+      }
+    }
+  }
+}
