@@ -1,0 +1,34 @@
+<section id="artist-content">
+	<div id="artist-content-text">
+		<h2><%= @name %></h2>
+		<div id="artist-content-text-inner">
+			<%= @content %>
+			<ul class="links">
+				<% for @link in @links %>
+				  <li><a href="<%= @link['url'] %>"><%= @link['text'] %></a></li>
+				<% end %>
+			</ul>
+			<% if @books.length > 0 %>
+			<h3><%= @first_name %> will be debuting the following books on tour</h3>
+			<ul class="books">
+			  <% for @book in @books %>
+				  <li><%= @book['name'] %><br/><span class="publisher"><%= @book['publisher'] %></span></li>
+				<% end %>
+			</ul>
+			<% end %>
+		</div>
+	</div>
+	<div id="artist-content-image">
+		<div class="slides">
+			<div class="slides_container">
+				<% for @image in @images %>
+				  <% if @image['large'] %>
+				  <div><a href="/images/art/<%= @image['large'] %>" title="<%= @name %>"><img width="380" height="380" src="/images/art/<%= @image['small'] %>"/></a></div>
+				  <% else %>
+				  <div><img width="380" height="380" src="/images/art/<%= @image['small'] %>"/></div>
+				  <% end %>
+				<% end %>
+			</div>
+		</div>
+	</div>
+</section>

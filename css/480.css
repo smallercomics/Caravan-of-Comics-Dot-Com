@@ -1,0 +1,114 @@
+ header
+{
+  background-image:url(../images/banner-480.png);
+}
+
+ header h2,
+ header h1,
+ #artists h2,
+ #nav h2,
+ #artist-content-text h2,
+#content-about h2
+{
+  padding:8px 16px;
+}
+
+ #nav
+{
+  overflow:hidden; /* float fixer */
+}
+ #nav a
+{
+ display:block;
+ float:left;
+ width:25%;
+ padding:8px 0;
+ text-align:center;
+}
+
+ #artists a,
+ #nav a
+{
+  
+  font-size:1.2em;
+ 
+}
+ #artists h2
+{
+  padding-left:16px;
+}
+ #artists ul
+{
+  padding:4px 0;
+  overflow:hidden; /* float fixer */
+  margin-left:12px;
+}
+ #artists li
+{
+  width:33%;
+  float:left;
+}
+ #artists li a
+{
+  padding-left:4px;
+}
+
+
+ #content
+{
+  padding:0;
+}
+
+ #content-text
+{
+  padding:16px;
+}
+
+
+
+ #artist-content-text-inner
+{
+  padding:16px;
+}
+
+ #caravan-image
+{
+  width:450px;
+  height:320px;
+  background-image:url(../images/caravan-450.png);
+  margin: 0 auto;
+}
+
+ ul.pagination
+{
+  margin-left:16px;
+  margin-bottom:16px;
+  overflow:hidden;
+}
+
+ #contact
+{
+  padding:0px 0 16px 0;
+}
+#content-about #contact
+{
+  float:none;
+  padding:20px 12px;
+}
+#artist-content-image slides,
+#artist-content-image img
+{
+  width:320px;
+  height:320px;
+}
+
+.epic
+{
+  display:none;
+}
+
+.get-on-board
+{
+  float:left;
+  margin-right:20px;
+}

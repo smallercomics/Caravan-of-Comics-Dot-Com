@@ -1,0 +1,11 @@
+ #caravan-image
+{
+  width:304px;
+  height:222px;
+  background-image:url(../images/caravan-320.png);
+  margin:0;
+}
+.friends
+{
+  clear:both;
+}

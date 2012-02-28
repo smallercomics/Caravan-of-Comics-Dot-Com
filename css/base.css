@@ -1,57 +1,342 @@
-body {
+ body 
+{
   margin: 0;
   padding: 0;
   background-color: white;
 }
-body #container header h2 {
-  background-color: #facb33;
-  margin: 0;
+
+ body {
+  font-family: "nimbus-sans", Helvetica, Arial, sans-serif;
+  font-size:14px;
+  line-height:18px;
 }
-body #container #nav {
-  background-color: #ef383c;
-  overflow: auto;
+
+ p
+{
+  margin-top:0;
 }
-body #container #nav a {
-  color: inherit;
-  text-decoration: none;
-  padding: 0.2em 0.3em;
+
+ h1,
+ h2,
+ h3
+{
+  font-family: "league-gothic", sans-serif;
+  font-weight: normal;
+  text-transform:uppercase;
+  margin:0;
+  padding:0;
 }
-body #container #nav h2 {
-  padding: 0.2em 1em;
+
+header a{
+  text-decoration:none;
+  color:inherit;
 }
-body #container #nav a, body #container #nav h2 {
-  float: left;
-  display: inline;
-  font-size: 1.2em;
-  line-height: 1.4em;
-  margin: 0;
+ #artists a,
+ #nav a
+{
+  font-family: "league-gothic", sans-serif;
+  text-transform: uppercase;
+  font-size:1.4em;
+  line-height:22px;
 }
-body #container #nav #home {
-  background-color: #87c443;
+
+
+
+ header h2
+{
+  background-color:#eb8401;
 }
-body #container #nav #press {
-  background-color: #f36563;
+
+
+ #nav
+{
+  background-color:#db121a;
 }
-body #container #nav #blog {
-  background-color: #f36563;
+ #nav h2
+{
+ background-color:#db121a;
+ color:white;
 }
-body #container #artists {
-  background-color: #facb33;
+
+ #nav a:link,
+ #nav a:hover,
+ #nav a:visited
+{
+  text-decoration:none;
+  color:inherit;
 }
-body #container #artists h2 {
-  margin: 0;
+
+ #nav a.home
+ {
+ background-color:#7db700;
+ }
+ #nav a.home:hover
+ {
+ background-color:#a6eb0d;
+ }
+ #nav a.support
+{
+  background-color:#2cb7cc;
 }
-body #container #artists ul {
-  list-style: none;
-  background-color: #823f48;
-  margin: 0;
-  padding: 0;
+#nav a.support:hover
+{
+  background-color:#9ef1ff;
 }
-body #container #artists ul li {
-  margin: 0;
-  padding: 0;
+ #nav a.press,#nav a.blog
+{
+  background-color:#e34748;
 }
-body #container #artists ul li a {
+ #nav a.press:hover,#nav a.blog:hover
+{
+  background-color:#ffbab8;
+}
+
+
+
+ #artists-content
+{
+  background-color:#68272B; /* Disguising the fact that the artists list and the content area are different heights*/
+}
+
+
+ #artists h2
+{
+  background-color:#f9c500;
+}
+
+ #artists ul,
+ #artists li
+{
+  margin:0;
+  padding:0
+}
+
+ #artists li
+{
+  list-style:none;
+}
+
+ #artists li a {
+  text-decoration:none;
+  color:white;
+  white-space:nowrap;
+}
+ #artists li a:hover {
+  color:#7DB700;
+}
+
+ #artist-content,
+ #content
+{
+  background-color:white;
+}
+
+ #artist-content-text h2
+{
+  color:white;
+  background-color:#7DB700;
+  text-align:left;
+  padding-left:16px;
+}
+
+ #artist-content-text a:link,
+ #artist-content-text a:visited,
+ #artist-content-text a:hover
+{
+ color:#009FDD;
+ text-decoration:none;	
+}
+
+ #artist-content-text ul,
+ #artist-content-text li
+{
+  list-style:none;
+  padding:0;
+}
+
+ #artist-content-text .publisher
+{
+  font-style:italic;
+}
+
+
+ ul.pagination
+{
+  margin:0;
+  padding:0;
+  
+}
+ ul.pagination li
+{
+  list-style:none;
+  float:left;
+  display:inline;
+}
+ ul.pagination li a
+{
+  display:block;
+  width:24px;
+  height:24px;
+  text-align:center;
+  line-height:24px;
+  color:white;
+  margin-right:2px;
+  background-color:#E34748;
+  text-decoration:none;
+}
+
+ ul.pagination li.current a
+{
+  background-color:#7DB700;
+}
+
+ #contact
+{
+  overflow:hidden; /* float fixer */
+}
+
+ #contact,
+ #contact li
+{
+  margin:0;
+  padding:0
+}
+
+ #contact li{
+  display:inline;
+  float:left;
+  list-style:none;
+}
+
+ #contact li a{
+  display:block;
+  width:51px;
+  height:48px;
+  background-image:url(../images/contact-sprite.png);
+  background-repeat:no-repeat;
+  text-indent:-9999px;
+}
+ .contact-twitter { background-position: -51px 0;}
+ .contact-youtube { background-position: -51px -48px;}
+
+
+
+ footer
+{
+  clear:both;
+  background-color:#f4a200;
+  padding: 10px;
+}
+
+ #blog-preview
+{
+  background-color:white;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  padding:24px 42px;
+}
+
+ #blog-preview .date
+{
+  text-transform:uppercase;
+  font-size:smaller;
+  font-family: "league-gothic", sans-serif;
+  color:#666;
+}
+
+ #blog-preview .more-link{
+  float:right;
+  color:#009FDD;
+  font-size:smaller;
+  text-decoration:none;
+  font-style:italic;
+}
+
+ .david-blumenstein #artists .david-blumenstein a{color:#7DB700;}
+ .jen-breach #artists .jen-breach a{color:#7DB700;}
+ .andrew-fulton #artists .andrew-fulton a{color:#7DB700;}
+ .pat-grant #artists .pat-grant a{color:#7DB700;}
+ .michael-hawkins #artists .michael-hawkins a{color:#7DB700;}
+ .doug-holgate #artists .doug-holgate a{color:#7DB700;}
+ .sarah-howell #artists .sarah-howell a{color:#7DB700;}
+ .ben-hutchings #artists .ben-hutchings a{color:#7DB700;}
+ .gregory-mackay #artists .gregory-mackay a{color:#7DB700;}
+ .mandy-ord #artists .mandy-ord a{color:#7DB700;}
+ .matt-taylor #artists .matt-taylor a{color:#7DB700;}
+
+ #artists .friends a{color:#F9C500;}
+ 
+#content-about
+{
+ min-height:600px;
+  background-color:white;
+}
+#content-about h2
+{
   color: white;
-  text-decoration: none;
+  background-color: #7DB700;
+  text-align: left;
+  padding-left: 16px;
+}
+#content-about p
+{
+  padding:16px;
+}
+
+table 
+{
+  background-color:white;
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+}
+table
+table td,
+table th,
+table tr
+{
+  margin:0;
+  vertical-align:top;
+  border:0;
+}
+table th
+{
+  background-color:#EB8401;
+  font-family:"league-gothic",sans-serif;
+  text-transform:uppercase;
+  font-size:22px;
+  font-weight:normal;
+  padding:6px 12px;
+}
+table td
+{
+  padding:6px 12px;
+}
+table td a{
+  color:#009FDD;
+  font-size:smaller;
+  text-decoration:none;
+  font-style:italic;
+}
+
+.get-on-board
+{
+background-color: #7DB700;
+padding: 4px 8px;
+font-family: "league-gothic";
+text-transform: uppercase;
+font-size: 1.2em;
+color:white;
+text-decoration:none;
+}
+.get-on-board:hover
+ {
+ background-color:#a6eb0d;
+ color:black;
+ }
+tr.note td
+{
+  background-color:#F9C500;
+  text-align:center;
 }

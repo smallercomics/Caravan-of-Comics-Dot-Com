@@ -1,0 +1,155 @@
+ body
+{
+  background-image:url(../images/back.png);
+  background-attachment:fixed;
+  background-repeat:repeat-x;
+}
+
+ #container
+{
+ width:700px;
+ margin:0 auto;
+ background-color:white;
+ overflow:hidden;
+}
+
+ header h1
+{
+  background-image:url(../images/banner-700.png);
+  height:124px;
+}
+
+/* A bunch of jiggry-pokery to get the badge in the header to look right */
+ header h1 span
+{
+  display:block;
+  margin:0 auto;
+  font-size:22px;
+}
+ header h1 span.caravan
+{
+	width:96px;
+	padding-top:32px;
+}
+ header h1 span.of
+{
+  width:50px;
+  font-size:16px;
+  margin:4px auto 5px auto;
+}
+ header h1 span.comics
+{
+	width:86px;
+}
+
+
+ h2
+{
+  line-height:48px;
+  font-size:22px;
+  text-align:center;
+}
+
+
+ #artists
+{
+  width:165px;
+  float:left;
+  clear:left;
+}
+
+ #nav
+{
+  overflow:hidden;
+  height:48px;
+}
+
+ #nav a
+{
+  text-align:center;
+  display:block;
+  float:left;
+  font-size:22px;
+  line-height:48px;
+  position:relative;
+  top:-48px;
+}
+/* breaks up the two sides of the menu around the strapline */
+ #nav span.nav-left  { float:left;  }
+ #nav span.nav-right { float:right; }
+
+ #nav a.home    { width:80px; }
+ #nav a.press   { width:85px; }
+ #nav a.support { width:85px; }
+ #nav a.blog    { width:75px; }
+
+ #artists h2
+{
+  text-align:left;
+  padding-left:14px;
+}
+ #artists ul
+{
+  padding:16px 0;
+}
+ #artists li
+{
+  padding-left:16px;
+}
+
+
+ #content
+{
+  overflow:hidden; /* float fixer */
+}
+ #content-text
+{
+  padding:20px;
+}
+
+ #artist-content
+{
+  overflow:hidden;
+}
+
+ #artist-content-image
+ {
+   padding:0 16px 16px 16px;
+ }
+ #artist-content-text-inner
+{
+  padding:16px 16px 0 16px;
+}
+
+#artist-content-text-inner ul.books
+{
+  padding-bottom:0;
+  margin-bottom:0;
+}
+#artist-content-image slides,
+#artist-content-image img
+{
+  width:380px;
+  height:380px;
+}
+ul.pagination
+{
+  overflow:hidden;
+}
+ #contact
+{
+  float:right;
+  padding-right:20px;
+  padding-bottom:20px;
+}
+#content-about #contact
+{
+  float:none;
+  padding:20px 12px;
+}
+ #caravan-image
+{
+  width:450px;
+  height:320px;
+  background-image:url(../images/caravan-450.png);
+}
