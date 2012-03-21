@@ -37,7 +37,7 @@
   books:
     -
       name: Clem Hetherington and the Button-Forbes Race (with Doug Holgate)
-      publisher: <a href="http://clemhetherington.tumblr.com">clemhetherington.tumblr.com</a>
+      publisher: 
     -
       name: <strike>Aliens</strike> Humans are the Weirdest (with Jase Harper)
       publisher: <a href="http://humansaretheweirdest.tumblr.com">humansaretheweirdest.tumblr.com</a>
@@ -129,10 +129,10 @@
   name: Doug Holgate
   slug: doug-holgate
   first_name: Doug
-  content: <p>Douglas Holgate has had work published with Image Comics (USA), Mococo anthology (France) and Mad Magazine (USA). Other titles he has made notorious include the Flight anthology series (Villard imprint, Random House, USA), The Amazing Joy Buzzards (Image comics, USA), the Zack Proton series (Simon and Schuster, USA), the Zinc Alloy and Bike Rider series (Stonearch Books, USA), the Super Chicken Nugget Boy series (Hyperion, USA) and currently has just signed on to illustrate the new series of MAD magazine's Planet Tad through Harper Collins.</p>
+  content: "<p>Based in Melbourne Australia, Douglas is a freelance Illustrator, comic book artist and cartoonist whose work has been published by Image Comics, Mad Magazine, Pan Macmillian and The French comics anthology Mococco.<br/>Predominately illustrating children's fiction and non fiction, Douglas is best known for his work on several series including Zack Proton (Simon and Schuster), Zinc Alloy and Bike Rider (Stonearch Books), Super Chicken Nugget Boy (Hyperion) and the new series of non fiction popular science books by Dr Karl Kruszelnicki published by Pan Macmillian.<br/>He has also made contributions to the Flight anthology series and enjoyed a stint drawing The Amazing Joy Buzzards (Image comics).<br/>Douglas is currently illustrating two new titles; Planet Tad and Case Files 13: Zombie Kid, both to be published later this year through Harper Collins. Inbetween books, he is slowly but surely putting together a new all-ages graphic novel, 'Clementine Hetherington and The Button Forbes Race', co-created with critically acclaimed comics writer Jen Breach.<br/>He has sported a powerful manly beard since the age of 12 (probably not true) and is also a pretty rad dude (probably true).</p>"
   links:
     -
-      url: http://skullduggery.com.au
+      url: http://www.skullduggery.com.au
       text: skullduggery.com.au
   books:
   images:
@@ -149,7 +149,7 @@
   name: Sarah Howell
   slug: sarah-howell
   first_name: Sarah
-  content: <p>Sarah is known as a producer of comics related events, including as 2009-10 Co-Director of the <a href="http://youngwritersfestival.org/">National Young Writers’ Festival.</a> Sarah’s illustrations and comics have appeared in various Australian literary journals and as part of the 2011 Melbourne Writers’ Festival’s comic anthology Drawn from Life. In August 2011 Sarah was one of eight Melbourne cartoonists invited to undertake a month long residency project, titled <em>Inherent Vice</em>, at the National Gallery of Victoria, Federation Square, Melbourne. As a result of <em>Inherent Vice Sarah</em> has become a founding member of Australia's first comics studio, <em>Squishface Studio</em>, in Brunswick, Melbourne. <a href="http://www.squishfacestudio.com">http://www.squishfacestudio.com</a></p>
+  content: <p>Sarah is known as a producer of comics related events, including as 2009-10 Co-Director of the <a href="http://youngwritersfestival.org/">National Young Writers’ Festival.</a> Sarah’s illustrations and comics have appeared in various Australian literary journals and as part of the 2011 Melbourne Writers’ Festival’s comic anthology Drawn from Life. In August 2011 Sarah was one of eight Melbourne cartoonists invited to undertake a month long residency project, titled <em>Inherent Vice</em>, at the National Gallery of Victoria, Federation Square, Melbourne. As a result of <em>Inherent Vice</em> Sarah has become a founding member of Australia's first comics studio, <em>Squishface Studio</em>, in Brunswick, Melbourne. <a href="http://www.squishfacestudio.com">http://www.squishfacestudio.com</a></p>
   links:
     -
       url: http://www.sarahhowellprojects.com
@@ -285,7 +285,7 @@
   name: John Retallick
   slug: john-retallick
   first_name: John
-  content: <p>John Retallick is the host and producer of TheComicSpot podcast. <br/>John has been a comics reader since having chicken pox at age seven and a community radio producer since university.<br/>In 2007 he thought it would be a good idea if he combined his two interests and TheComicSpot was born. Five years later TheComicSpot is still focussing on Australian Comics and comics culture in Australia.<br/>John's role in the caravan is as unofficial 'Comics Roadie'. He will drive, buy coffee, staff tables, massage aching drawing hands and follow orders dilligently all in support of Australian comics.</p>
+  content: <p>John Retallick is the host and producer of <em>TheComicSpot</em> podcast. <br/>John has been a comics reader since having chicken pox at age seven and a community radio producer since university.<br/>In 2007 he thought it would be a good idea if he combined his two interests and TheComicSpot was born. Five years later <em>TheComicSpot</em> is still focusing on Australian Comics and comics culture in Australia.<br/>John's role in the caravan is as unofficial 'Comics Roadie'. He will drive, buy coffee, staff tables, massage aching drawing hands and follow orders diligently all in support of Australian comics.</p>
   links:
     -
       url: http://thecomicspot.blogspot.com

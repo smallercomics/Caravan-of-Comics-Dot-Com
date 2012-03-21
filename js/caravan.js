@@ -23,8 +23,15 @@ function show_tumblr(data){
 					post_date   = new Date(data.posts[0]['unix-timestamp'] * 1000),
 					post_title  = data.posts[0]['regular-title'] ? data.posts[0]['regular-title'] : '',
 					date_string = ['Monday ','Tuesday','Wednesday ','Thursday ','Friday ','Saturday ','Sunday '][post_date.getDay()] + post_date.getDate() + [' January',' February',' March',' April',' June',' July',' August',' September',' October',' November',' December'][post_date.getMonth()];
-				
-    
+
+    break;
+    case "photo":
+      var post_html = "<img src='"+data.posts[0]['photo-url-250']+"'/>" + data.posts[0]['photo-caption'],
+          post_url    = data.posts[0]['url'],
+					post_date   = new Date(data.posts[0]['unix-timestamp'] * 1000),
+					post_title  = '',
+					date_string = ['Monday ','Tuesday','Wednesday ','Thursday ','Friday ','Saturday ','Sunday '][post_date.getDay()] + post_date.getDate() + [' January',' February',' March',' April',' June',' July',' August',' September',' October',' November',' December'][post_date.getMonth()];
+
     break;
   }
 	if (post_html){			

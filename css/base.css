@@ -261,10 +261,10 @@ header a{
  .doug-holgate #artists .doug-holgate a{color:#7DB700;}
  .sarah-howell #artists .sarah-howell a{color:#7DB700;}
  .ben-hutchings #artists .ben-hutchings a{color:#7DB700;}
- .gregory-mackay #artists .gregory-mackay a{color:#7DB700;}
+ .gregory-mackay #artists .gregory-mckay a{color:#7DB700;}
  .mandy-ord #artists .mandy-ord a{color:#7DB700;}
  .matt-taylor #artists .matt-taylor a{color:#7DB700;}
-
+ .john-retallick #artists .john-retallick a {color:#7DB700;}
  #artists .friends a{color:#F9C500;}
  
 #content-about
@@ -283,7 +283,11 @@ header a{
 {
   padding:16px;
 }
-
+#content-about .youtube5container,
+#content-about iframe
+{
+  margin:16px;
+}
 table 
 {
   background-color:white;
